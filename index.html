@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>This is the title of the webpage!</title>
+        <title>888 Test</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
         <link rel="stylesheet" type="text/css" href="./css/flip-card.css" />
         <link rel="stylesheet" type="text/css" href="./css/style.css" />
         <script src="src/scripts.js"></script>
@@ -21,9 +22,9 @@
                         <div class="body_text">DEPOSIT</div>
                         <div class="body_text">Place a single bet up to £30 on any sport in our Sportsbook.</div>
                         <div class="button_container">
-                            <button class="light_grey_btn" onclick="flipCard()">Ts&Cs</button>
-                            <button class="light_grey_btn" onclick="buttonGlow()">FIND OUT MORE</button>
-                            <button class="orange_btn" onclick="buttonGlow()">JOIN NOW</button>
+                            <button class="light_grey_btn" id="T&C" onclick="flipCard()">Ts&Cs</button>
+                            <button class="light_grey_btn" onclick="tCButtonGlow()">FIND OUT MORE</button>
+                            <button class="orange_btn" onclick="tCButtonGlow()">JOIN NOW</button>
                         </div>
                     </div>
                 </div>
@@ -39,8 +40,8 @@
                         </div>
 
                         <div class="button_container_left">
-                            <button class="light_grey_btn" onclick="flipCard()">Back</button>
-                            <button class="orange_btn" onclick="buttonGlow()">JOIN NOW</button>
+                            <button class="light_grey_btn" id="back" onclick="flipCard()">Back</button>
+                            <button class="orange_btn" onclick="backButtonGlow()">JOIN NOW</button>
                         </div>
                     </div>
                 </div>
