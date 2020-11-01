@@ -1,11 +1,50 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>This is the title of the webpage!</title>
-  </head>
-  <body>
-    <h1>My First Heading</h1>
+    <head>
+        <title>This is the title of the webpage!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="./css/flip-card.css" />
+        <link rel="stylesheet" type="text/css" href="./css/style.css" />
+        <script src="src/scripts.js"></script>
+    </head>
+    <body>
+        <div class="flip-card">
+            <div class="flip-card-inner" id="flip-card-inner">
+                <div class="flip-card-front">
+                    <div class="img_background"></div>
+                    <div class="container_grey">
+                        <div class="green_title">888CASINO</div>
+                        <div class="bonus_title">£1000 BONUS</div>
+                        </br>
+                        <div class="body_text">JOIN</div>
+                        <div class="body_text">Open an account with us, it takes just a few minutes.</div>
+                        <div class="body_text">DEPOSIT</div>
+                        <div class="body_text">Place a single bet up to £30 on any sport in our Sportsbook.</div>
+                        <div class="button_container">
+                            <button class="light_grey_btn" onclick="flipCard()">Ts&Cs</button>
+                            <button class="light_grey_btn" onclick="buttonGlow()">FIND OUT MORE</button>
+                            <button class="orange_btn" onclick="buttonGlow()">JOIN NOW</button>
+                        </div>
+                    </div>
+                </div>
 
-    <p>My first paragraph.</p>
-  </body>
+                <div class="flip-card-back">
+                    <div class="container_grey">
+                        <div><span class="green_title">888CASINO</span>&nbsp;<span class="body_text">£1000 BONUS</span></div>
+                        </br>
+                        <div class="scroll-box">
+                            <div class="body_text">Terms & Conditions</div>
+                            <div class="body_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget viverra nisl. Aliquam a auctor odio, non posuere tellus. Mauris ornare turpis faucibus purus mollis interdum. Donec tempor eros elit, sit amet dictum mauris pretium aliquet. In malesuada augue ac nisl posuere, ut tristique ante interdum. Aliquam eu tristique eros. Morbi sagittis enim vitae aliquet malesuada. Quisque neque diam, mattis quis orci at, volutpat lobortis nibh. Phasellus sagittis faucibus libero a egestas. Vivamus ut tellus nisl. Integer ultrices sapien pretium finibus luctus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus id eros lectus. Vivamus ultricies dui id suscipit vestibulum. Morbi venenatis ante eget urna imperdiet, gravida mattis sem euismod. Vivamus placerat cursus sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque non ultricies lectus. Aliquam erat volutpat. Suspendisse luctus tortor vitae nisi hendrerit, ut venenatis erat laoreet. Sed malesuada neque eu mattis efficitur. Suspendisse quis placerat quam.
+                            </div>
+                        </div>
+
+                        <div class="button_container_left">
+                            <button class="light_grey_btn" onclick="flipCard()">Back</button>
+                            <button class="orange_btn" onclick="buttonGlow()">JOIN NOW</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
